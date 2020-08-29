@@ -34,6 +34,26 @@ ul {
 .l-sidebar {
   min-width: 188px; }
 
+.l-header {
+  display: flex;
+  align-items: center; }
+
+.search-form {
+  padding: 8px;
+  margin: 8px;
+  background: #252830;
+  border-radius: 4px;
+  width: 100%; }
+
+.search-form-input {
+  margin-left: 16px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background: #252830; }
+
+/*.search-form-input
+  text-decoration: none*/
 .sidebar {
   background: #1F1F26; }
 
@@ -60,7 +80,8 @@ ul {
 .button-logo-text {
   display: block;
   background: black;
-  padding: 8px; }
+  padding: 8px;
+  width: 100%; }
 
 .sidebar-menu a {
   padding-left: 16px;
