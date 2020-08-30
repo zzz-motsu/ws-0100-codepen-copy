@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "compile": "node-sass stylesheets/sass/index.sass stylesheets/style.css -w"
+=======
+    "compile-sass": "node-sass -r -w stylesheets/sass/index.sass stylesheets/style.css"
+>>>>>>> 7b82a74a50e796386d8a717165a3d3719802c771
   },
   "author": "version.2017.1.0@gmail.com (https://github.com/version-1)",
   "license": "ISC",
