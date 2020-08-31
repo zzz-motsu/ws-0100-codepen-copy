@@ -1,4 +1,5 @@
-.l-flex {
+.l-flex,
+.hero-body {
   display: flex;
 }
 
@@ -17,4 +18,12 @@
 .l-header {
   display: flex;
   align-items: center;
+}
+
+.hero-body-description {
+  width: 50%;
+}
+
+.hero-body-image {
+  width: 50%;
 }

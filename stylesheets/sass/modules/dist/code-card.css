@@ -1,0 +1,25 @@
+.code-card {
+  background: #1d1e22;
+  margin-bottom: 8px;
+  width: 300px;
+  height: 140px;
+  font-size: 13px;
+}
+
+.code-card-header {
+  padding: 4px 8px;
+  justify-content: space-between;
+}
+
+.code-card-title-text {
+  margin: 0;
+  margin-left: 8px;
+}
+
+.code-card-html {
+  position: relative;
+}
+
+.code-card-body p {
+  margin: 0;
+}
