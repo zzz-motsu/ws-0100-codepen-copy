@@ -1,0 +1,27 @@
+// mediaquery:
+
+@mixin sm
+  @media only screen and (max-width : $screen-sm-min)
+    @content
+    
+@mixin md
+  @media only screen and (min-width : $screen-md-min)
+    @content
+    
+  
+@mixin lg
+  @media only screen and (min-width : $screen-lg-min)
+    @content
+    
+  
+@mixin xl
+  @media only screen and (min-width : $screen-xl-min)
+    @content
+
+
+// card-size:
+
+@mixin code-card($left: 160px, $bottom: 20px, $position: relative)
+  left: $left
+  bottom: $bottom
+  position: $position
