@@ -1,5 +1,25 @@
 .hero
   margin: 32px
 
+.hero-body
+  @include sm
+    display: flex
+    flex-wrap: wrap
+
 .hero-body-description
-  padding: 32px;
+  padding: 32px
+
+.hero-body-description-title
+  margin: 0
+  font-size: 3rem
+  font-weight: 900
+
+.hero-body-description-text
+  font-size: 1.1rem
+
+.text-bold
+  font-weight: bold
+
+.hero-footer .button
+  width: 200px
+  font-size: 1.4em

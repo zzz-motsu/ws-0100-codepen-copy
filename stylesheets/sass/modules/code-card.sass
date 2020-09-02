@@ -1,3 +1,5 @@
+@import '../mixins.sass'
+
 .code-card
   background: #1d1e22
   margin-bottom: 8px
@@ -16,10 +18,14 @@
 
 .code-card-html,
 .code-card-js
-  @include code-card;
+  @include code-card
 
 .code-card-scss
-  @include code-card(220px);
+  @include code-card(220px)
+
+.code-card-body
+  padding: 8px
+  padding-top: 0
 
 .code-card-body p
   margin: 0
