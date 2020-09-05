@@ -1,3 +1,6 @@
+.l-section
+  margin: 32px 0
+
 .hero
   margin: 32px
 
@@ -7,7 +10,19 @@
     flex-wrap: wrap
 
 .hero-body-description
+  width: 50%
   padding: 32px
+  @include sm
+    width: 100%
+
+.hero-body-image
+  width: 50%
+  @include sm
+    width: 100%
+
+.hero-body-image-card
+  @include sm
+    width: 100%
 
 .hero-body-description-title
   margin: 0
