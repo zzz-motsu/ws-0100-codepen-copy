@@ -158,6 +158,8 @@ ul {
   margin-bottom: 16px; }
 
 .product-item-card {
+  border-radius: 4px;
+  background: #2c303a;
   transition: .2s; }
   .product-item-card:hover {
     transform: scale(1.05);
