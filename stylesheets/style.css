@@ -22,8 +22,7 @@ ul {
   margin: 0;
   padding: 0; }
 
-.l-flex,
-.hero-body {
+.l-flex {
   display: flex; }
 
 .l-align-center {
@@ -39,8 +38,11 @@ ul {
   display: flex;
   align-items: center; }
 
-.product-item-row {
-  justify-content: center; }
+.l-margin-left-2rem {
+  margin-left: 2rem !important; }
+
+.l-margin-left-4rem {
+  margin-left: 4rem !important; }
 
 .button {
   text-align: center;
@@ -86,12 +88,6 @@ ul {
   height: 410px;
   border-radius: 6px;
   margin: 16px auto; }
-
-.l-margin-left-2rem {
-  margin-left: 2rem !important; }
-
-.l-margin-left-4rem {
-  margin-left: 4rem !important; }
 
 .hilight-orange {
   color: #a88038; }
@@ -152,6 +148,9 @@ ul {
   background: #2c303a;
   margin: 2rem 1rem;
   width: 360px; }
+
+.product-item-row {
+  justify-content: center; }
 
 .product-message-body {
   color: #b7bbc8;
@@ -273,10 +272,11 @@ ul {
 .hero {
   margin: 32px; }
 
-@media only screen and (max-width: 576px) {
-  .hero-body {
-    display: flex;
-    flex-wrap: wrap; } }
+.hero-body {
+  display: flex; }
+  @media only screen and (max-width: 576px) {
+    .hero-body {
+      flex-wrap: wrap; } }
 
 .hero-body-description {
   width: 50%;
