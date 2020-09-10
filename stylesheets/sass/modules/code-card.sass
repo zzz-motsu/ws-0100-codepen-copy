@@ -19,9 +19,13 @@
 .code-card-html,
 .code-card-js
   @include code-card
+  @include sm
+    left: 120px
 
 .code-card-scss
   @include code-card(220px)
+  @include sm
+    left: 160px
 
 .code-card-body
   padding: 8px
