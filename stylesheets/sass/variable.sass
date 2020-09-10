@@ -2,7 +2,22 @@
 // Colors:
 
 $background-color: #131417
+
 // declare your variables for color
+
+$purewhite: #FFFFFF 
+$primary-color: #47cf73
+$secondary-color: #444857
+$accent-color: #0ebeff
+$warning-color: #ffdd40
+
+$lightgray: #b7bbc8
+$gray: #aaaebc
+$card-gray: #2c303a
+
+$black: black
+$weak-black: #1F1F26
+$search-form-background: #252830
 
 
 // Break Points:
@@ -17,29 +32,3 @@ $screen-lg-min: 992px
 
 // Large tablets and desktops
 $screen-xl-min: 1200px
-
-// @mixin:
-
-@mixin sm
-    @media only screen and (max-width : $screen-sm-min)
-      @content
-    
-@mixin md
-    @media only screen and (min-width : $screen-md-min)
-      @content
-    
-  
-@mixin lg
-    @media only screen and (min-width : $screen-lg-min)
-      @content
-    
-  
-@mixin xl
-    @media only screen and (min-width : $screen-xl-min)
-      @content
-
-@mixin code-card($left: 160px, $bottom: 20px, $position: relative)
-  left: $left
-  bottom: $bottom
-  position: $position
-
